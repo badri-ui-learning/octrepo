@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PickYourTrial">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="LoginTest">
+    <classes>
+      <class name="testcases.LoginTestcase"/>
+    </classes>
+  </test>
+  <test name="SignupTest">
+    <classes>
+      <class name="testcases.SignupTestcase"/>
+    </classes>
+  </test>
+</suite>

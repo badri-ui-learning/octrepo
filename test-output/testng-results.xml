@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PickYourTrial" duration-ms="9887" started-at="2020-10-18T13:33:30Z" finished-at="2020-10-18T13:33:40Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="5352" started-at="2020-10-18T13:33:30Z" finished-at="2020-10-18T13:33:35Z">
+      <class name="testcases.LoginTestcase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.LoginTestcase@4dfa3a9d]" name="launchBrowser" is-config="true" duration-ms="3107" started-at="2020-10-18T13:33:30Z" finished-at="2020-10-18T13:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.LoginTestcase@4dfa3a9d]" name="initialize" is-config="true" duration-ms="693" started-at="2020-10-18T13:33:33Z" finished-at="2020-10-18T13:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:1, instance:testcases.LoginTestcase@4dfa3a9d]" name="loginWithInvalidCredentials" duration-ms="764" started-at="2020-10-18T13:33:34Z" finished-at="2020-10-18T13:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.LoginTestcase@4dfa3a9d]" name="initialize" is-config="true" duration-ms="288" started-at="2020-10-18T13:33:34Z" finished-at="2020-10-18T13:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginWithMobileAlone()[pri:2, instance:testcases.LoginTestcase@4dfa3a9d]" name="loginWithMobileAlone" duration-ms="371" started-at="2020-10-18T13:33:35Z" finished-at="2020-10-18T13:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMobileAlone -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.LoginTestcase@4dfa3a9d]" name="teardown" is-config="true" duration-ms="110" started-at="2020-10-18T13:33:35Z" finished-at="2020-10-18T13:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.LoginTestcase -->
+    </test> <!-- LoginTest -->
+    <test name="SignupTest" duration-ms="4517" started-at="2020-10-18T13:33:35Z" finished-at="2020-10-18T13:33:40Z">
+      <class name="testcases.SignupTestcase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.SignupTestcase@cb644e]" name="launchBrowser" is-config="true" duration-ms="1255" started-at="2020-10-18T13:33:35Z" finished-at="2020-10-18T13:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.SignupTestcase@cb644e]" name="initialize" is-config="true" duration-ms="725" started-at="2020-10-18T13:33:36Z" finished-at="2020-10-18T13:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SignupWithoutAnyDetails()[pri:0, instance:testcases.SignupTestcase@cb644e]" name="SignupWithoutAnyDetails" duration-ms="2421" started-at="2020-10-18T13:33:37Z" finished-at="2020-10-18T13:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupWithoutAnyDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.SignupTestcase@cb644e]" name="teardown" is-config="true" duration-ms="114" started-at="2020-10-18T13:33:39Z" finished-at="2020-10-18T13:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.SignupTestcase -->
+    </test> <!-- SignupTest -->
+  </suite> <!-- PickYourTrial -->
+</testng-results>
